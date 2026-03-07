@@ -31,6 +31,19 @@ function ProjectCard({ project }) {
       <div>
         <div style={styles.projectName}>{project.name}</div>
         <div style={styles.projectDesc}>{project.desc}</div>
+        {project.task && (
+          <div style={{ marginBottom: 10 }}>
+            <span style={{
+              fontFamily: "'DM Mono', monospace",
+              fontSize: 9,
+              letterSpacing: "0.1em",
+              color: "#4f8ef7",
+              textTransform: "uppercase",
+              marginRight: 6,
+            }}>задача</span>
+            <span style={{ fontSize: 12, color: "#a0aac0", lineHeight: 1.55 }}>{project.task}</span>
+          </div>
+        )}
         <div style={styles.tags}>
           {project.tags.map((t) => (
             <span key={t} style={styles.tag}>{t}</span>
