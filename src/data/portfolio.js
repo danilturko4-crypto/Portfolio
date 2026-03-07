@@ -58,13 +58,6 @@ about: [
       tags: ["Nuxt 3", "TypeScript", "Pinia", "SSR", "Vue 3"],
     },
     {
-      name: "Portfolio Site",
-      badge: "Vue 3",
-      href: null,
-      desc: "Персональное портфолио на Vue 3 + Composition API. Реализован клиентский роутинг, анимации переходов, адаптивная grid-сетка.",
-      tags: ["Vue 3", "Composition API", "Vue Router", "SCSS"],
-    },
-    {
       name: "JWT Auth Admin Panel",
       badge: "Fullstack",
       href: "https://github.com/danilturko4-crypto/Jwt-auth-admin-panels",
