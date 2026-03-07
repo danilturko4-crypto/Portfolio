@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0c0e13;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 560px) {
+  .resume-header {
+    grid-template-columns: 1fr !important;
+  }
+  .resume-contacts {
+    align-items: flex-start !important;
+  }
+  .resume-name {
+    font-size: 26px !important;
+  }
+  .skills-cols {
+    grid-template-columns: 1fr !important;
+  }
+}
