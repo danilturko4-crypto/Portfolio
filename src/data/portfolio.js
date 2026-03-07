@@ -51,6 +51,13 @@ about: [
       tags: ["HTML5", "SCSS", "Адаптив", "Figma → Code"],
     },
     {
+      name: "Medical Booking",
+      badge: "Nuxt 3",
+      href: "https://github.com/danilturko4-crypto/Medical-Booking-Nuxt-3",
+      desc: "Платформа записи к врачу на Nuxt 3 с SSR. Каталог врачей с фильтрами, сортировкой и пагинацией, профили докторов, отзывы, авторизация и система бронирования.",
+      tags: ["Nuxt 3", "TypeScript", "Pinia", "SSR", "Vue 3"],
+    },
+    {
       name: "Portfolio Site",
       badge: "Vue 3",
       href: null,
