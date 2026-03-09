@@ -31,6 +31,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          VITE_TG_TOKEN: ${{ secrets.VITE_TG_TOKEN }}
+          VITE_TG_CHAT_ID: ${{ secrets.VITE_TG_CHAT_ID }}
 
       - uses: actions/configure-pages@v4
 
